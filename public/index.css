@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+  font-family: "cwTeXYen", sans-serif;
+  background: #F7F9F4;
+  color: #393D50;
+}
+
+#username {
+    width: 150px;
+    background-color: #1a153532;
+    border-color: #1a153532;
+    box-shadow: 5px 5px 10px black;
+    color: #393D50;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+#password {  
+    width: 150px;
+    background-color: #1a153532;
+    border-color: #1a153532;
+    box-shadow: 5px 5px 10px black;
+    color: #393D50;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-title {
+    background-color: #393D50;
+    color: #FCFCF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+  
+.login_box {
+    text-align: center;
+}
+
+button {
+    background: #F56457;
+    color: #FCFCF4;
+    border-color: #393D5032;
+    box-shadow: 5px 5px 10px black;
+}
+
+button:hover {
+    background:  #F5645780;
+}

@@ -1,0 +1,216 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+  background: #F7F9F4;
+  font-family: "cwTeXYen", sans-serif;
+  --aa-color: #393D50;
+}
+
+h1 {
+  background-color: #393D50;
+  color: #F7F9F4;
+  margin: 0;
+}
+
+label {
+  color: #1a1535;
+}
+
+b {
+  color: #1a1535;
+}
+
+#top {
+    display: flex;
+
+}
+
+#welcome {
+  background-color: #F56457;
+  font-size: 16px;
+  font-weight: 700;
+  color: #F7F9F4;
+  margin: 0;
+}
+
+#top-left {
+  flex-grow: 1;
+}
+
+#form_create_bill {
+  margin-right: 20px;
+}
+
+#top-right {
+  flex-grow: 10;
+}
+
+#right-right {
+  flex-grow: 1;
+}
+
+table {
+  border-collapse: collapse;
+  width: 280px;
+}
+
+th {
+  background: #F56457;
+}
+
+td, th {
+  text-align: left;
+  padding: 2px;
+  color: #F7F9F4;
+  
+}
+
+tr:nth-child(odd) {
+  background-color: #F5645790;
+  color: #1a1535;
+}
+
+tr:nth-child(even) {
+  background-color: #F56457;
+  color: #FCFCF4;
+}
+
+h3 {
+
+  font-weight: 700;
+}
+
+#bill-board {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bill {
+  width: 250px;
+  height: 380px;
+  margin: 10px;
+  background-color: #F56457;
+  color: #F7F9F4;
+  font-size: 13px;
+  box-shadow: 10px 5px 10px black;
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.bi.bi-pen:hover, .bi.bi-trash:hover {
+  font-size: 11px;
+  background:  var(--aa-color);
+}
+
+  
+button {
+  background: #F56457;
+  color: #fcfcf4;
+  font-weight: 550;
+  border-color: #F56457;
+  box-shadow: 5px 5px 10px black;
+}
+
+button:hover {
+  background:  #FFC172;
+}
+
+#reset-button {
+  background: #F56457;
+  color: #fcfcf4;
+  font-weight: 550;
+  border-color: #F56457;
+  box-shadow: 5px 5px 10px black;
+}
+
+#reset-button:hover {
+  background:  #F5645750;
+}
+
+#transaction_date {
+  width: 150px;
+  background-color: #1a153532;
+  border-color: #1a153532;
+  box-shadow: 5px 5px 10px black;
+  color: rgb(97, 92, 92);
+  margin-bottom: 10px;
+}
+
+.category {
+  width: 8em;
+  background-color: #1a153532;
+  border-color: #1a153532;
+  box-shadow: 5px 5px 10px black;
+  color: rgb(97, 92, 92);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.amount {
+  width:5em;
+  background-color: #1a153532;
+  border-color: #1a153532;
+  box-shadow: 5px 5px 10px black;
+  color: rgb(97, 92, 92);
+  margin-bottom: 10px;
+}
+
+.button-div .bi {
+  color: #EDE5D8;
+  background-color: #F56457;
+  border-radius: 100px;
+  padding: 8px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bill_category {
+  display: flex;
+  margin: 6px 0 6px;
+}
+
+.item_category {
+  flex-grow: 40;
+}
+
+.item_amount {
+  flex-grow: 3;
+}
+
+.button-div {
+  flex-grow: 2;
+}
+
+#single_month, #single_year {
+  width: 100px;
+  background-color: #1a153532;
+  border-color: #1a153532;
+}
+
+#monthly_year {
+  width: 100px;
+  background-color: #1a153532;
+  border-color: #1a153532;
+}
+
+#yearly_year {
+  width: 100px;
+  background-color: #1a153532;
+  border-color: #1a153532;
+}
+
+.yearly-record {
+  margin-right: 20px;
+}
+
+.table_category {
+  width: 250px;
+}
+
+.table_amount {
+  width: 180px;
+}
